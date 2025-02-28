@@ -1,0 +1,54 @@
+.prabuddha{
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    
+    /* background-repeat: no-repeat,repeat; */
+    background-blend-mode: darken;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#banner #logo{
+    
+    height: 50px;
+    width: 50px;
+    display: flex;
+
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    object-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  
+}
+#banner{
+    display: flex;
+    align-items: center;
+    background-image:url(https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=600) ;
+    color: beige;
+    padding: 5px;
+}
+#banner h1{
+    padding-left: 2.5%;
+}
+.prabuddha{
+    color: beige;
+}
+#dummy{
+    border: 5px solid red ;
+    border-radius: 50px;
+}
+#home:hover{
+    color: aqua;
+}
+.prabuddha h1{
+    color: aqua;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#social:hover{
+    color: aqua;
+}
